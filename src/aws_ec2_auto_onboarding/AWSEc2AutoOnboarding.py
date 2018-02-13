@@ -12,7 +12,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 DEFAULT_HEADER = {"content-type": "application/json"}
 
-
+# git setup
 # return ec2 instance relevant data:
 # keyPair_name, instance_address, platform
 def get_ec2_details(instanceId, context):
